@@ -1,0 +1,91 @@
+name: Update index
+
+# Rebuild index.json (and icons/) from plugins.txt every day with the official plugin-market-generator,
+# validate it with parseMarketIndex, and commit only when the generated files change.
+on:
+  schedule:
+    - cron: '17 3 * * *'  # 11:17 Asia/Taipei
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: update-index
+  cancel-in-progress: false
+
+env:
+  INDEX_URL: https://f0909172434.github.io/dsh-plugin-index/index.json
+  TITLE: 'DSH 社群插件精選'
+  DESCRIPTION: '從已安裝插件與 GitHub topic:dsh-plugin 熱門倉庫自動產生'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check out the generator
+        uses: actions/checkout@v4
+        with:
+          repository: deepseek-ai/deepseek-harness
+          path: .generator
+          sparse-checkout: |
+            apps/plugin-market-generator
+            packages/util/plugin-market-index
+            packages/util/package-manifest
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Restore the generator cache
+        uses: actions/cache@v4
+        with:
+          path: .plugin-market-cache  # generator default: beside plugins.txt
+          key: plugin-market-cache-${{ github.run_id }}
+          restore-keys: plugin-market-cache-
+
+      - name: Prepare the generator
+        run: bash .github/scripts/prepare-generator.sh .generator
+
+      - name: Generate index.json
+        working-directory: .generator/apps/plugin-market-generator
+        run: |
+          before=$(./node_modules/.bin/tsx validate-index.ts "$GITHUB_WORKSPACE/index.json" "$INDEX_URL" || echo 0)
+          status=0
+          ./node_modules/.bin/tsx src/bin.ts \
+            --input "$GITHUB_WORKSPACE/plugins.txt" \
+            --output "$GITHUB_WORKSPACE/index.json" \
+            --title "$TITLE" --description "$DESCRIPTION" || status=$?
+          # 0: every source read; 1: some source fell back to its cache or was omitted; 2: invalid input.
+          if [ "$status" -gt 1 ]; then echo "::error::generator exited with $status"; exit "$status"; fi
+          after=$(./node_modules/.bin/tsx validate-index.ts "$GITHUB_WORKSPACE/index.json" "$INDEX_URL")
+          echo "plugins: $before -> $after"
+          if [ "$status" -eq 1 ] && [ "$after" -lt "$before" ]; then
+            echo "::error::some sources failed and the index shrank from $before to $after plugins; not committing"
+            exit 1
+          fi
+          if [ "$status" -eq 1 ]; then echo "::warning::some sources failed; their cached results were kept"; fi
+
+      - name: Commit and push changes
+        run: |
+          if [ -z "$(git status --porcelain -- index.json icons)" ]; then
+            echo "index.json and icons/ unchanged"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- index.json icons
+          git commit -q -F - <<'MSG'
+          Update plugin market index
+
+          Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+          MSG
+          git push
+          # Pushes made with GITHUB_TOKEN may not start a Pages build on their own.
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent || echo "::warning::could not request a Pages build"
+        env:
+          GH_TOKEN: ${{ github.token }}
