@@ -1494,6 +1494,20 @@
       },
       "versions": [
         {
+          "version": "5.1.0",
+          "publishTimestamp": 1792309470,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "5.0.3",
+          "publishTimestamp": 1792294706,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
           "version": "5.0.2",
           "publishTimestamp": 1792263680,
           "source": {
@@ -2693,6 +2707,16 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.73.1",
+          "publishTimestamp": 1792308522,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.2 || >=0.2.0-rc.2"
+          }
+        },
         {
           "version": "0.73.0",
           "publishTimestamp": 1792201915,
@@ -4009,6 +4033,36 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.9.3",
+          "publishTimestamp": 1792305620,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.2",
+          "publishTimestamp": 1792299962,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.0",
+          "publishTimestamp": 1792295729,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
         {
           "version": "1.8.36",
           "publishTimestamp": 1792250157,
@@ -5840,6 +5894,18 @@
         ]
       },
       "versions": [
+        {
+          "version": "2.5.3",
+          "publishTimestamp": 1792288607,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+            "commit": "e465d73733ae7000b21d86ccb2bdfb8c0616c2b9"
+          },
+          "engines": {
+            "dsh": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1"
+          }
+        },
         {
           "version": "2.5.2",
           "publishTimestamp": 1792255299,
@@ -9584,11 +9650,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1792247559,
+          "publishTimestamp": 1792304942,
           "source": {
             "type": "git",
             "url": "https://github.com/dream-num/univer-workspace",
-            "commit": "a7e2210a3956026c2305ae76d10d6679eb5e5634",
+            "commit": "7b8dc07a618f4685e91a5ef43a08aaf177942587",
             "path": "apps/agent"
           },
           "engines": {
@@ -9604,11 +9670,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1792247559,
+          "publishTimestamp": 1792304942,
           "source": {
             "type": "git",
             "url": "https://github.com/dream-num/univer-workspace",
-            "commit": "a7e2210a3956026c2305ae76d10d6679eb5e5634",
+            "commit": "7b8dc07a618f4685e91a5ef43a08aaf177942587",
             "path": "packages/dsh-univer-workspace-plugin"
           },
           "engines": {
@@ -9624,11 +9690,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1792247559,
+          "publishTimestamp": 1792304942,
           "source": {
             "type": "git",
             "url": "https://github.com/dream-num/univer-workspace",
-            "commit": "a7e2210a3956026c2305ae76d10d6679eb5e5634",
+            "commit": "7b8dc07a618f4685e91a5ef43a08aaf177942587",
             "path": "packages/dsh-univer-workspace-skin-plugin"
           },
           "engines": {
@@ -9660,12 +9726,24 @@
       },
       "versions": [
         {
-          "version": "0.1.24-rc.1",
-          "publishTimestamp": 1792224617,
+          "version": "0.1.25",
+          "publishTimestamp": 1792295322,
           "source": {
             "type": "git",
             "url": "https://github.com/NanmiCoder/dsh-agent-teams",
-            "commit": "6768de25aede12056a497b0a79ebf6cd8bb1e987"
+            "commit": "cf11157665cb944b41294bd46e6ee0175ecdffd1"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.2 || 0.2.1-rc.1 || 0.2.0-rc.2 || 0.1.7-rc.2 || 0.1.5-rc.3 || 0.1.5-rc.2 || 0.1.5-rc.1 || 0.1.2-rc.1 || 0.1.2-alpha.5 || 0.1.2-alpha.2"
+          }
+        },
+        {
+          "version": "0.1.24",
+          "publishTimestamp": 1792292237,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/NanmiCoder/dsh-agent-teams",
+            "commit": "a2a30dd1ca9e60b1948427f482ef920feb0d6b6e"
           },
           "engines": {
             "dsh": "0.2.1-rc.1 || 0.2.0-rc.2 || 0.1.7-rc.2 || 0.1.5-rc.3 || 0.1.5-rc.2 || 0.1.5-rc.1 || 0.1.2-rc.1 || 0.1.2-alpha.5 || 0.1.2-alpha.2"
@@ -11087,6 +11165,18 @@
       },
       "versions": [
         {
+          "version": "2.13.1",
+          "publishTimestamp": 1792302118,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/GanyuanRan/Aegis",
+            "commit": "28dfb41e4d08239c6b47c6425396c81cdd10601e"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6"
+          }
+        },
+        {
           "version": "2.13.0",
           "publishTimestamp": 1791707150,
           "source": {
@@ -11934,11 +12024,11 @@
       "versions": [
         {
           "version": "3.0.5",
-          "publishTimestamp": 1792245854,
+          "publishTimestamp": 1792297923,
           "source": {
             "type": "git",
             "url": "https://github.com/ysr666/dsh-vision-router",
-            "commit": "ab72fb0f76aebc562505fa26cd8570738c67826e"
+            "commit": "1da5811638cc620411332b2656e88ec5470d8471"
           },
           "engines": {
             "dsh": ">=0.1.5-rc.1 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0"
@@ -13164,6 +13254,18 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.1.47",
+          "publishTimestamp": 1792291169,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Anionex/dsh-vision-toolkit",
+            "commit": "18a05b12dca54ce74538bd7d8b921491bb0d7f6a"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.8 <0.2.0 || ^0.1.1-rc.1 || ^0.1.2-alpha.1 || ^0.1.5-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.2"
+          }
+        },
         {
           "version": "0.1.46",
           "publishTimestamp": 1790829863,
