@@ -2708,6 +2708,26 @@
       },
       "versions": [
         {
+          "version": "0.73.3",
+          "publishTimestamp": 1792368526,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.2 || >=0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.73.2",
+          "publishTimestamp": 1792330792,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.2 || >=0.2.0-rc.2"
+          }
+        },
+        {
           "version": "0.73.1",
           "publishTimestamp": 1792308522,
           "source": {
@@ -4034,6 +4054,96 @@
       },
       "versions": [
         {
+          "version": "1.9.12",
+          "publishTimestamp": 1792396810,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.11",
+          "publishTimestamp": 1792388244,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.10",
+          "publishTimestamp": 1792385114,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.9",
+          "publishTimestamp": 1792378362,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.8",
+          "publishTimestamp": 1792373444,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.7",
+          "publishTimestamp": 1792336840,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.6",
+          "publishTimestamp": 1792323279,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.5",
+          "publishTimestamp": 1792316760,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.4",
+          "publishTimestamp": 1792314176,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
           "version": "1.9.3",
           "publishTimestamp": 1792305620,
           "source": {
@@ -5229,6 +5339,16 @@
       },
       "versions": [
         {
+          "version": "0.17.0",
+          "publishTimestamp": 1792331301,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+          }
+        },
+        {
           "version": "0.16.0",
           "publishTimestamp": 1792220348,
           "source": {
@@ -5895,6 +6015,30 @@
       },
       "versions": [
         {
+          "version": "2.5.5",
+          "publishTimestamp": 1792399355,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+            "commit": "25151bab43ff28bfc0eef5a3dbec4443ecc6d2f2"
+          },
+          "engines": {
+            "dsh": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1"
+          }
+        },
+        {
+          "version": "2.5.4",
+          "publishTimestamp": 1792384350,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+            "commit": "494a1d84e5401b54c4760e9da08f4221824f6d10"
+          },
+          "engines": {
+            "dsh": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1"
+          }
+        },
+        {
           "version": "2.5.3",
           "publishTimestamp": 1792288607,
           "source": {
@@ -6173,6 +6317,7 @@
         "en": "Visual plugin market inside DeepSeek Harness — browse, search, and one-click install community plugins. · DSH 可视化插件市场：逛一逛，点一下，装好。",
         "zh": "逛一逛，点一下，装好。"
       },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idCI+CiAgPHRpdGxlIGlkPSJ0Ij5kc2gtbWFya2V0PC90aXRsZT4KICA8IS0tIFNoYXJlZCBicmFuZCBtYXJrIHdpdGggYXdlc29tZS1kc2gtcGx1Z2luOiB0aGUgYmxvY2sgZ3JpZCB3aXRoIG9uZQogICAgICAgY2lubmFiYXIgYmxvY2sgYmVpbmcgcGx1Z2dlZCBpbi4gLS0+CiAgPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyOCIgZmlsbD0iI2Y2ZjJlYSIvPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE1LjcgMTYuNykgc2NhbGUoMC4zKSB0cmFuc2xhdGUoLTExMiAtNzgpIj4KICAgIDxnIGZpbGw9IiMyYjI2MjAiPgogICAgICA8cmVjdCB4PSIxMTIiIHk9IjExMiIgd2lkdGg9Ijg4IiBoZWlnaHQ9Ijg4IiByeD0iMTQiLz4KICAgICAgPHJlY3QgeD0iMjEyIiB5PSIxMTIiIHdpZHRoPSI4OCIgaGVpZ2h0PSI4OCIgcng9IjE0Ii8+CiAgICAgIDxyZWN0IHg9IjExMiIgeT0iMjEyIiB3aWR0aD0iODgiIGhlaWdodD0iODgiIHJ4PSIxNCIvPgogICAgICA8cmVjdCB4PSIyMTIiIHk9IjIxMiIgd2lkdGg9Ijg4IiBoZWlnaHQ9Ijg4IiByeD0iMTQiLz4KICAgICAgPHJlY3QgeD0iMTEyIiB5PSIzMTIiIHdpZHRoPSI4OCIgaGVpZ2h0PSI4OCIgcng9IjE0Ii8+CiAgICAgIDxyZWN0IHg9IjIxMiIgeT0iMzEyIiB3aWR0aD0iODgiIGhlaWdodD0iODgiIHJ4PSIxNCIvPgogICAgICA8cmVjdCB4PSIzMTIiIHk9IjIxMiIgd2lkdGg9Ijg4IiBoZWlnaHQ9Ijg4IiByeD0iMTQiLz4KICAgICAgPHJlY3QgeD0iMzEyIiB5PSIzMTIiIHdpZHRoPSI4OCIgaGVpZ2h0PSI4OCIgcng9IjE0Ii8+CiAgICA8L2c+CiAgICA8cmVjdCB4PSIzNDYiIHk9Ijc4IiB3aWR0aD0iODgiIGhlaWdodD0iODgiIHJ4PSIxNCIgZmlsbD0iI2MwMzkyYiIgdHJhbnNmb3JtPSJyb3RhdGUoOSAzOTAgMTIyKSIvPgogIDwvZz4KPC9zdmc+Cg==",
       "homepage": "https://dshmarket.com",
       "repository": {
         "url": "https://github.com/dsh-market/dsh-market"
@@ -6189,6 +6334,66 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.66.42",
+          "publishTimestamp": 1792356115,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-market/dsh-market",
+            "commit": "3679d7eae82fbeecc4fee9e1f356e21293a283bc"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.7 || ^0.1.1-rc.2 || ^0.1.2-alpha.2 || ^0.2.0-rc.1 || ^0.2.1-alpha.3 || ^0.2.1-rc.1"
+          }
+        },
+        {
+          "version": "1.66.41",
+          "publishTimestamp": 1792347706,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-market/dsh-market",
+            "commit": "6eaf95ae2d0fc01b8f74d66fd70eeb2bda6dedfe"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.7 || ^0.1.1-rc.2 || ^0.1.2-alpha.2 || ^0.2.0-rc.1 || ^0.2.1-alpha.3 || ^0.2.1-rc.1"
+          }
+        },
+        {
+          "version": "1.66.40",
+          "publishTimestamp": 1792343536,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-market/dsh-market",
+            "commit": "42bc2fe54f0104043786d2c9323ffeedbdc1d391"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.7 || ^0.1.1-rc.2 || ^0.1.2-alpha.2 || ^0.2.0-rc.1 || ^0.2.1-alpha.3 || ^0.2.1-rc.1"
+          }
+        },
+        {
+          "version": "1.66.39",
+          "publishTimestamp": 1792324648,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-market/dsh-market",
+            "commit": "2f6d3763845c8c56ed7565a36cd7c5fac041281f"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.7 || ^0.1.1-rc.2 || ^0.1.2-alpha.2 || ^0.2.0-rc.1 || ^0.2.1-alpha.3 || ^0.2.1-rc.1"
+          }
+        },
+        {
+          "version": "1.66.38",
+          "publishTimestamp": 1792315696,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-market/dsh-market",
+            "commit": "07e0def00366016c0a4d5b637fb5a80673134657"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.7 || ^0.1.1-rc.2 || ^0.1.2-alpha.2 || ^0.2.0-rc.1 || ^0.2.1-alpha.3 || ^0.2.1-rc.1"
+          }
+        },
         {
           "version": "1.66.37",
           "publishTimestamp": 1792258986,
@@ -8111,6 +8316,15 @@
       },
       "versions": [
         {
+          "version": "1.1.72",
+          "publishTimestamp": 1792375047,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/YuJunZhiXue/dsh-purge",
+            "commit": "ec69166706bed95efb6c35e225b01588f3cd9b72"
+          }
+        },
+        {
           "version": "1.1.71",
           "publishTimestamp": 1791716994,
           "source": {
@@ -9369,8 +9583,8 @@
         "zh": "dsh-ops"
       },
       "description": {
-        "en": "Provides bash, PowerShell 7, and a suite of high-performance tools written in Rust for DSH to enhance token efficiency",
-        "zh": "为dsh提供bash、powershell7及一系列rust编写的高性能tools来提高token效率"
+        "en": "Provides optional Bash and native Rust tools for DSH to improve token efficiency; PowerShell remains host-managed",
+        "zh": "为 DSH 提供可选 Bash 和原生 Rust 工具以提高 token 效率；PowerShell 继续由宿主管理"
       },
       "icon": "icons/4e5d6b86d8209e1f.png",
       "homepage": "https://github.com/T-Auto/dsh-ops#readme",
@@ -9382,12 +9596,34 @@
           "dsh",
           "dsh-plugin",
           "deepseek-harness",
-          "mcp",
-          "fastctx",
           "repository-tools"
         ]
       },
       "versions": [
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1792396947,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/T-Auto/dsh-ops",
+            "commit": "dd67dcaba34d25f29c42da9e5036080d4d54d27d"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1792380643,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/T-Auto/dsh-ops",
+            "commit": "386294bc06113ce7e58e0615de71c717ffa75875"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.2"
+          }
+        },
         {
           "version": "0.3.1",
           "publishTimestamp": 1792131076,
@@ -9530,11 +9766,11 @@
       "versions": [
         {
           "version": "0.1.6",
-          "publishTimestamp": 1791546679,
+          "publishTimestamp": 1792397761,
           "source": {
             "type": "git",
             "url": "https://github.com/zilliztech/memsearch",
-            "commit": "09e07d86b31ff81938b4f44a57099b6a9fc8723f",
+            "commit": "2e64124920130ebf1fea30d05f405a9131f8db83",
             "path": "plugins/dsh"
           }
         }
@@ -9650,11 +9886,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1792304942,
+          "publishTimestamp": 1792390736,
           "source": {
             "type": "git",
             "url": "https://github.com/dream-num/univer-workspace",
-            "commit": "7b8dc07a618f4685e91a5ef43a08aaf177942587",
+            "commit": "de587348e3beca06efd70961cfa8348615c65fb1",
             "path": "apps/agent"
           },
           "engines": {
@@ -9670,11 +9906,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1792304942,
+          "publishTimestamp": 1792390736,
           "source": {
             "type": "git",
             "url": "https://github.com/dream-num/univer-workspace",
-            "commit": "7b8dc07a618f4685e91a5ef43a08aaf177942587",
+            "commit": "de587348e3beca06efd70961cfa8348615c65fb1",
             "path": "packages/dsh-univer-workspace-plugin"
           },
           "engines": {
@@ -9690,11 +9926,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1792304942,
+          "publishTimestamp": 1792390736,
           "source": {
             "type": "git",
             "url": "https://github.com/dream-num/univer-workspace",
-            "commit": "7b8dc07a618f4685e91a5ef43a08aaf177942587",
+            "commit": "de587348e3beca06efd70961cfa8348615c65fb1",
             "path": "packages/dsh-univer-workspace-skin-plugin"
           },
           "engines": {
@@ -12953,6 +13189,18 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.5.6",
+          "publishTimestamp": 1792381292,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Clearailhc/clearai-dsh",
+            "commit": "a457f6b0d39266922615ed05be6d43ddb3114fcc"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        },
         {
           "version": "0.5.5",
           "publishTimestamp": 1791958838,
