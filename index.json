@@ -1534,6 +1534,20 @@
       },
       "versions": [
         {
+          "version": "5.4.0",
+          "publishTimestamp": 1792556648,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "5.3.0",
+          "publishTimestamp": 1792511710,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
           "version": "5.2.0",
           "publishTimestamp": 1792427065,
           "source": {
@@ -2754,6 +2768,16 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.74.0",
+          "publishTimestamp": 1792564805,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.2 || >=0.2.0-rc.2"
+          }
+        },
         {
           "version": "0.73.3",
           "publishTimestamp": 1792368526,
@@ -4100,6 +4124,86 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.9.24",
+          "publishTimestamp": 1792559579,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.23",
+          "publishTimestamp": 1792552680,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.22",
+          "publishTimestamp": 1792512048,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.21",
+          "publishTimestamp": 1792509529,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.20",
+          "publishTimestamp": 1792495172,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.19",
+          "publishTimestamp": 1792490851,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.18",
+          "publishTimestamp": 1792488754,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.17",
+          "publishTimestamp": 1792488407,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
         {
           "version": "1.9.16",
           "publishTimestamp": 1792473075,
@@ -6112,6 +6216,30 @@
       },
       "versions": [
         {
+          "version": "2.5.8",
+          "publishTimestamp": 1792564400,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+            "commit": "3b78248304301d4e22e336dd826df62bffc58739"
+          },
+          "engines": {
+            "dsh": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1"
+          }
+        },
+        {
+          "version": "2.5.7",
+          "publishTimestamp": 1792505099,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+            "commit": "d857f8ecb6236608dd97f8f2aa81beacc4994a8d"
+          },
+          "engines": {
+            "dsh": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1"
+          }
+        },
+        {
           "version": "2.5.6",
           "publishTimestamp": 1792428237,
           "source": {
@@ -6367,11 +6495,11 @@
       "versions": [
         {
           "version": "0.3.3",
-          "publishTimestamp": 1792477323,
+          "publishTimestamp": 1792569319,
           "source": {
             "type": "git",
             "url": "https://github.com/Tencent/BrowserSkill",
-            "commit": "0717ec883f4d26c939c68d5c9ebeafb359b86684",
+            "commit": "6214e3d6a3d74eaf39c0202c4f182b5755974da9",
             "path": "packages/dsh-plugin-browserskill"
           },
           "engines": {
@@ -6443,6 +6571,18 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.66.45",
+          "publishTimestamp": 1792517681,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-market/dsh-market",
+            "commit": "eb72f8917129dabd281aef14169e5b57f43cd50e"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.7 || ^0.1.1-rc.2 || ^0.1.2-alpha.2 || ^0.2.0-rc.1 || ^0.2.1-alpha.3 || ^0.2.1-rc.1"
+          }
+        },
         {
           "version": "1.66.44",
           "publishTimestamp": 1792434083,
@@ -9647,6 +9787,24 @@
       },
       "versions": [
         {
+          "version": "0.5.7",
+          "publishTimestamp": 1792565774,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/QingYunA/answer-me-with-html",
+            "commit": "76c3c6d39270138f3dfa6d577a3afb02178b3a1d"
+          }
+        },
+        {
+          "version": "0.5.6",
+          "publishTimestamp": 1792499116,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/QingYunA/answer-me-with-html",
+            "commit": "02fa044425efb1eedc11a3787e9242da1462511b"
+          }
+        },
+        {
           "version": "0.5.5",
           "publishTimestamp": 1792141320,
           "source": {
@@ -9690,11 +9848,11 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1792061859,
+          "publishTimestamp": 1792562869,
           "source": {
             "type": "git",
             "url": "https://github.com/chuspeeism/dashi-taskboard",
-            "commit": "723c400eec86c454c1ffa56ee1b500746d41e142",
+            "commit": "9aa1f4e7936d841748ed4e0fc7781b57ae6ae6cc",
             "path": "integrations/deepseek-harness"
           }
         }
@@ -9724,6 +9882,18 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1792486847,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/T-Auto/dsh-ops",
+            "commit": "a9ff940319b5bda0e8bf805badf7844a1e69cef8"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.2"
+          }
+        },
         {
           "version": "0.4.0",
           "publishTimestamp": 1792474793,
@@ -9890,12 +10060,29 @@
       "versions": [
         {
           "version": "0.1.6",
-          "publishTimestamp": 1792397761,
+          "publishTimestamp": 1792499171,
           "source": {
             "type": "git",
             "url": "https://github.com/zilliztech/memsearch",
-            "commit": "2e64124920130ebf1fea30d05f405a9131f8db83",
+            "commit": "00092f44d2809676fe959f278432bc07c7cb159a",
             "path": "plugins/dsh"
+          }
+        }
+      ]
+    },
+    {
+      "name": "deepseek-bot-engine",
+      "title": "deepseek-bot-engine",
+      "description": "The engine layer of the DeepSeek Bot desktop app profile: transport, host services and the Bot agent preset over dsh-base, without the DSH Web front end.",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1792563083,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Fei2411/DeepSeek-Bot",
+            "commit": "ae63b45c0d0e75b5f59fc3042b5043761ee41391",
+            "path": "app/engine"
           }
         }
       ]
@@ -9921,6 +10108,16 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1792563083,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Fei2411/DeepSeek-Bot",
+            "commit": "ae63b45c0d0e75b5f59fc3042b5043761ee41391",
+            "path": "ds-bot"
+          }
+        },
         {
           "version": "0.1.7",
           "publishTimestamp": 1792159316,
@@ -11524,6 +11721,18 @@
         ]
       },
       "versions": [
+        {
+          "version": "2.14.1",
+          "publishTimestamp": 1792555680,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/GanyuanRan/Aegis",
+            "commit": "a95fa4bf00281e617a7a042c8a419af963dd3800"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6"
+          }
+        },
         {
           "version": "2.14.0",
           "publishTimestamp": 1792483139,
