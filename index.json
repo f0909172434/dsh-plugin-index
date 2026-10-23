@@ -20,6 +20,16 @@
       },
       "versions": [
         {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741673,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
           "version": "0.2.1-rc.2",
           "publishTimestamp": 1792225825,
           "source": {
@@ -327,6 +337,16 @@
         "directory": "packages/subagent/subagent-codex"
       },
       "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741759,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
+          }
+        },
         {
           "version": "0.2.1-rc.2",
           "publishTimestamp": 1792225829,
@@ -642,6 +662,16 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.9.12",
+          "publishTimestamp": 1792716985,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.0-rc.6"
+          }
+        },
         {
           "version": "0.9.10",
           "publishTimestamp": 1792596226,
@@ -4145,6 +4175,26 @@
       },
       "versions": [
         {
+          "version": "1.9.28",
+          "publishTimestamp": 1792738578,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "1.9.27",
+          "publishTimestamp": 1792728452,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        },
+        {
           "version": "1.9.26",
           "publishTimestamp": 1792591109,
           "source": {
@@ -6557,11 +6607,11 @@
       "versions": [
         {
           "version": "0.3.3",
-          "publishTimestamp": 1792569319,
+          "publishTimestamp": 1792721243,
           "source": {
             "type": "git",
             "url": "https://github.com/Tencent/BrowserSkill",
-            "commit": "6214e3d6a3d74eaf39c0202c4f182b5755974da9",
+            "commit": "8d00a2b03af06dc5668dda4cfcd8069c575f2d4f",
             "path": "packages/dsh-plugin-browserskill"
           },
           "engines": {
@@ -6633,6 +6683,42 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.69.0",
+          "publishTimestamp": 1792702506,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-market/dsh-market",
+            "commit": "2477c36e2226b6ed731c88e66adc5a431976dcaa"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.7 || ^0.1.1-rc.2 || ^0.1.2-alpha.2 || ^0.2.0-rc.1 || ^0.2.1-alpha.3 || ^0.2.1-rc.1"
+          }
+        },
+        {
+          "version": "1.68.0",
+          "publishTimestamp": 1792696612,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-market/dsh-market",
+            "commit": "1cd799200f662c9d241953431997a4b4512fdac9"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.7 || ^0.1.1-rc.2 || ^0.1.2-alpha.2 || ^0.2.0-rc.1 || ^0.2.1-alpha.3 || ^0.2.1-rc.1"
+          }
+        },
+        {
+          "version": "1.67.0",
+          "publishTimestamp": 1792677340,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-market/dsh-market",
+            "commit": "1e370cf4004a137908d63287d284ea16bfe306cb"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.7 || ^0.1.1-rc.2 || ^0.1.2-alpha.2 || ^0.2.0-rc.1 || ^0.2.1-alpha.3 || ^0.2.1-rc.1"
+          }
+        },
         {
           "version": "1.66.47",
           "publishTimestamp": 1792608258,
@@ -8675,651 +8761,12 @@
       },
       "versions": [
         {
-          "version": "1.1.71",
-          "publishTimestamp": 1791716994,
+          "version": "1.1.73",
+          "publishTimestamp": 1792742890,
           "source": {
             "type": "git",
             "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "5e757260a0be055892b48ec520d451cc82e1c191"
-          }
-        },
-        {
-          "version": "1.1.70",
-          "publishTimestamp": 1791712865,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "a5dcbb02d86e6a0feda618d562029cc75fb54586"
-          }
-        },
-        {
-          "version": "1.1.69",
-          "publishTimestamp": 1791661136,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "e581245906ff9756575c766b45728cb6d53445db"
-          }
-        },
-        {
-          "version": "1.1.68",
-          "publishTimestamp": 1791656495,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "4fc6db788e9d437c8867befde617583d74719879"
-          }
-        },
-        {
-          "version": "1.1.67",
-          "publishTimestamp": 1791562542,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "164e15106d8e243eb0111e04181aeca2b6020130"
-          }
-        },
-        {
-          "version": "1.1.66",
-          "publishTimestamp": 1791480737,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "09bac57f2cfbf22dbc2e896063de161ac0e6b81d"
-          }
-        },
-        {
-          "version": "1.1.65",
-          "publishTimestamp": 1791449564,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "76e64d65e0cc151879ce39ec703e6eabb8b558a9"
-          }
-        },
-        {
-          "version": "1.1.64",
-          "publishTimestamp": 1791428658,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "24710ff2d10c9bc54ea418713ac1299ad4cb0180"
-          }
-        },
-        {
-          "version": "1.1.63",
-          "publishTimestamp": 1791390637,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "e4c18d1e2c9f825d6e1d7d48ecea1a1f7655dd8c"
-          }
-        },
-        {
-          "version": "1.1.62",
-          "publishTimestamp": 1791370147,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "39bc5208b0d9a4d9bd1e94cf147f8d718b4b59b7"
-          }
-        },
-        {
-          "version": "1.1.61",
-          "publishTimestamp": 1791367999,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "f51c1d6ddce9cdbbcd603c3669977877140e037a"
-          }
-        },
-        {
-          "version": "1.1.60",
-          "publishTimestamp": 1791300774,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "af13e8c201b526dc3bbce949351fb46a762eb1eb"
-          }
-        },
-        {
-          "version": "1.1.59",
-          "publishTimestamp": 1791135406,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "15df041ebe0fbfa8ad6681835659bb3b904692de"
-          }
-        },
-        {
-          "version": "1.1.58",
-          "publishTimestamp": 1791133615,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "131ef12ecbd82584bed1cf111fec1d180894b52e"
-          }
-        },
-        {
-          "version": "1.1.57",
-          "publishTimestamp": 1791090379,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "354f9a1960c342ec104bc9412735c268c5b40790"
-          }
-        },
-        {
-          "version": "1.1.56",
-          "publishTimestamp": 1791044689,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "49cd2d91fee24b07ad958ad546cab024986d3749"
-          }
-        },
-        {
-          "version": "1.1.55",
-          "publishTimestamp": 1791017389,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "6f37daa01d60293c4f5bc47d0fed33a7c427ee90"
-          }
-        },
-        {
-          "version": "1.1.54",
-          "publishTimestamp": 1791008365,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "4da6d2eaf4df0e3779fc9deb975254f4bd67d03f"
-          }
-        },
-        {
-          "version": "1.1.53",
-          "publishTimestamp": 1791006878,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "c67b012bd71c20e53da5552a1c26dc3fbb3dc92e"
-          }
-        },
-        {
-          "version": "1.1.52",
-          "publishTimestamp": 1790963012,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "fccb6339374c7897748f077cd256dbbefec697ab"
-          }
-        },
-        {
-          "version": "1.1.51",
-          "publishTimestamp": 1790960491,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "a18fefa2a9262ca63e1d01319f17cf063e3857dc"
-          }
-        },
-        {
-          "version": "1.1.50",
-          "publishTimestamp": 1790951368,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "8f01cd84445272603805f416c31358d299c31b6e"
-          }
-        },
-        {
-          "version": "1.1.49-beta.1",
-          "publishTimestamp": 1790940016,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "0674ca20032a76eba41914fe294ec389fba6b35b"
-          }
-        },
-        {
-          "version": "1.1.48",
-          "publishTimestamp": 1790935294,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "883362d6fe0d9801ef99726e4940f57503ab09c4"
-          }
-        },
-        {
-          "version": "1.1.47",
-          "publishTimestamp": 1790920513,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "b7c14005c35a3db4ca5ca1c2a72cab60cf48909e"
-          }
-        },
-        {
-          "version": "1.1.46",
-          "publishTimestamp": 1790882926,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "81c48bf4650dc33045b0abb46515363abd4ccba5"
-          }
-        },
-        {
-          "version": "1.1.45",
-          "publishTimestamp": 1790879724,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "96c54b8431a9c5cb16b28964fee4c35292233a4b"
-          }
-        },
-        {
-          "version": "1.1.44",
-          "publishTimestamp": 1790858172,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "b8a5171d78584266214282f1f3e5c0b562afb28e"
-          }
-        },
-        {
-          "version": "1.1.43",
-          "publishTimestamp": 1790828444,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "2929bb783b71735d7a50baeaa9432e1ef8a81b7a"
-          }
-        },
-        {
-          "version": "1.1.42",
-          "publishTimestamp": 1790791205,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "5bcaa3c42728b9e11fdf470d885b679dafcb602d"
-          }
-        },
-        {
-          "version": "1.1.41",
-          "publishTimestamp": 1790769623,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "eed95f79cbcef8f6ec2adc5da2eaa7b2b47b50c6"
-          }
-        },
-        {
-          "version": "1.1.40",
-          "publishTimestamp": 1790701644,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "3bc63beca4ece41e4d8a04187b64e0b480a962e0"
-          }
-        },
-        {
-          "version": "1.1.39",
-          "publishTimestamp": 1790683851,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "be2189d290329041c25e6a9108f50a180445d81c"
-          }
-        },
-        {
-          "version": "1.1.38",
-          "publishTimestamp": 1790676928,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "53d472f3c742baf8d617f2807d9038c76c6319de"
-          }
-        },
-        {
-          "version": "1.1.37",
-          "publishTimestamp": 1790612693,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "9be495de2c359a1e93aa3c7ac4fb2b982f75d2e0"
-          }
-        },
-        {
-          "version": "1.1.36",
-          "publishTimestamp": 1790612009,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "776812569a18a2b075fa012797ecf1ead36e2770"
-          }
-        },
-        {
-          "version": "1.1.35",
-          "publishTimestamp": 1790603147,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "065d00633b30a07dd519a2ca60a2636ef40d07fb"
-          }
-        },
-        {
-          "version": "1.1.34",
-          "publishTimestamp": 1790591335,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "7fc64e4b4559fab7cf418c33d695953f24b9eaf0"
-          }
-        },
-        {
-          "version": "1.1.33",
-          "publishTimestamp": 1790590159,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "e41a692572dbc489390ec8b2a8970ad0c58f1aa9"
-          }
-        },
-        {
-          "version": "1.1.32",
-          "publishTimestamp": 1790589543,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "c08fd47eba2f3f24386b8146364eb5abcea66f8f"
-          }
-        },
-        {
-          "version": "1.1.31",
-          "publishTimestamp": 1790588143,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "f988474f2f20a90b90fd73566185eafaf7024b28"
-          }
-        },
-        {
-          "version": "1.1.30",
-          "publishTimestamp": 1790584316,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "181fe141e3fa033ec01483ad485199191e65b9e2"
-          }
-        },
-        {
-          "version": "1.1.28",
-          "publishTimestamp": 1790580071,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "00b4c6f93d0500df678f9e299a37da878913ff5e"
-          }
-        },
-        {
-          "version": "1.1.27",
-          "publishTimestamp": 1790563151,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "3f2051be7e9d9e14f72ec007bfa2c4b129ae2bc5"
-          }
-        },
-        {
-          "version": "1.1.26",
-          "publishTimestamp": 1790560611,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "b6324250bdf0aeea42582291c0a7f711ba51e0a5"
-          }
-        },
-        {
-          "version": "1.1.25",
-          "publishTimestamp": 1790527643,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "7aab03681817550ab437d94523510088c98dfff3"
-          }
-        },
-        {
-          "version": "1.1.25-beta.1",
-          "publishTimestamp": 1790527668,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "9ab8972c34cad4f8ac2b2fec3334bc11c4a055e2"
-          }
-        },
-        {
-          "version": "1.1.24",
-          "publishTimestamp": 1790523932,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "05b64bf82f9706e7e4df27efb872e24f3914ad98"
-          }
-        },
-        {
-          "version": "1.1.24-beta.1",
-          "publishTimestamp": 1790523995,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "ef9ce36bc131c5604ddb851c29c46eb80d4787fd"
-          }
-        },
-        {
-          "version": "1.1.23",
-          "publishTimestamp": 1790523555,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "aff65294183cfd84c8209707d15aafb150472515"
-          }
-        },
-        {
-          "version": "1.1.23-beta.3",
-          "publishTimestamp": 1790523704,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "b7a4d52a2bdae88148afbd7192219d3931a726d9"
-          }
-        },
-        {
-          "version": "1.1.23-beta.2",
-          "publishTimestamp": 1790506851,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "4dc5797aa87bf66f1b0a8f0fb8ef4f5a353e0453"
-          }
-        },
-        {
-          "version": "1.1.23-beta.1",
-          "publishTimestamp": 1790501189,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "e031208bdbb78ebf74e6ad5014a76be6ce286497"
-          }
-        },
-        {
-          "version": "1.1.22",
-          "publishTimestamp": 1790492268,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "58c950ae65a6c4e61688b774146aebce0dcd0647"
-          }
-        },
-        {
-          "version": "1.1.21",
-          "publishTimestamp": 1790343139,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "4538da436da02903b0bdd8a7ce99e7624e6e2f4b"
-          }
-        },
-        {
-          "version": "1.1.20",
-          "publishTimestamp": 1790318301,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "978538f0aec8db32d15a98638b73bb0779c6364b"
-          }
-        },
-        {
-          "version": "1.1.19",
-          "publishTimestamp": 1790275649,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "fd8d47c00f0a6367f6d382862f1af0bcab97318f"
-          }
-        },
-        {
-          "version": "1.1.18",
-          "publishTimestamp": 1790259567,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "00ccf4a1f1ca16ca08bd975b00ee99ef40c9e3e9"
-          }
-        },
-        {
-          "version": "1.1.17",
-          "publishTimestamp": 1790253517,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "c4b092204a3c3c5783d28a9b61eb483980dc029c"
-          }
-        },
-        {
-          "version": "1.1.16",
-          "publishTimestamp": 1790236469,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "44de3c344db719c469a7683ed9282f4f4fd8be08"
-          }
-        },
-        {
-          "version": "1.1.15",
-          "publishTimestamp": 1790223727,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "5d6cf35dac32bdd42b542ac94c0763dfabdb136b"
-          }
-        },
-        {
-          "version": "1.1.14",
-          "publishTimestamp": 1790146282,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "b2c2fad6fdbf207233b2b2b0c6802615dd505aff"
-          }
-        },
-        {
-          "version": "1.1.13",
-          "publishTimestamp": 1790095146,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "d5059a23c066e58422a6e514e9576e1e77477d36"
-          }
-        },
-        {
-          "version": "1.1.12",
-          "publishTimestamp": 1790047264,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "9c1a002cf52f054e1196b10845b57fcf5cff05c8"
-          }
-        },
-        {
-          "version": "1.1.12-beta.1",
-          "publishTimestamp": 1789968658,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "5629c35e225ca20e879c35e0b5e5e7eba80675d3"
-          }
-        },
-        {
-          "version": "1.1.11",
-          "publishTimestamp": 1790007314,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "f3afd9a5cbbd312b24405f624f171fefb267f4d0"
-          }
-        },
-        {
-          "version": "1.1.10",
-          "publishTimestamp": 1789873202,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "51a9d271dd5226bba7c2a4ed54187c8a1c13ee95"
-          }
-        },
-        {
-          "version": "1.1.9",
-          "publishTimestamp": 1789750285,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "f16ba86ad12843d6539621eaee9590e3e499da4e"
-          }
-        },
-        {
-          "version": "1.1.8",
-          "publishTimestamp": 1789747860,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "ff61342936fef95d1946a25bff66b3b6d99d7cba"
-          }
-        },
-        {
-          "version": "1.1.7",
-          "publishTimestamp": 1789727171,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "e84671d20af0bba086d232f6efec8a4caa329751"
-          }
-        },
-        {
-          "version": "1.1.2",
-          "publishTimestamp": 1789700083,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "ea2632cd757eef6824c17c9c96f343f24e782698"
-          }
-        },
-        {
-          "version": "1.1.1",
-          "publishTimestamp": 1789662453,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/YuJunZhiXue/dsh-purge",
-            "commit": "7642678a27219cefbabc323f1fe183e255695de1"
+            "commit": "ca848d767e134906087cc4f619015142023b00b5"
           }
         }
       ]
@@ -10146,11 +9593,11 @@
       "versions": [
         {
           "version": "0.1.6",
-          "publishTimestamp": 1792638205,
+          "publishTimestamp": 1792741316,
           "source": {
             "type": "git",
             "url": "https://github.com/zilliztech/memsearch",
-            "commit": "f8d9243711b572689a0c697e824b21da19e79686",
+            "commit": "08a4be9baaf0254dc5ca2bb85c5aa7b596e70ed8",
             "path": "plugins/dsh"
           }
         }
@@ -11798,6 +11245,21 @@
             "type": "git",
             "url": "https://github.com/shaobeichen/dsh-pocket",
             "commit": "a31a04dd37183a75c45a90e2ba3da5d649f8ed1d"
+          }
+        }
+      ]
+    },
+    {
+      "name": "brooks-lint",
+      "title": "brooks-lint",
+      "versions": [
+        {
+          "version": "1.8.0",
+          "publishTimestamp": 1792674251,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/hyhmrright/brooks-lint",
+            "commit": "cddd4b97a6d9fbfceb8f515977271692c46d6a2c"
           }
         }
       ]
